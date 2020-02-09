@@ -1,4 +1,4 @@
-<section id="header" class="site header">
+<!-- <section id="header" class="site header">
     <div class="header wrap"><span class="header left-side"><a class="site home" href="{{- `/` | relLangURL -}}">
                 {{- $logo := site.Params.logo -}}
                 {{- if $logo -}}
@@ -11,4 +11,16 @@
     {{- with site.Params.slogan -}}
         <div class="site slogan"><span class="title">{{- . | safeHTML -}}</span></div>
     {{- end -}}
-</section>
+</section> -->
+
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="{{ .Permalink }}">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/custom.css" />
+<!-- <link rel="stylesheet" href="/css/normalize.css" />-->
+<meta name="description" content="{{ if eq .Section "post" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+<title>{{ .Site.Title }}: {{ if eq .Section "post" }}{{ .Title }}{{ else }}Home{{ end }}</title>

@@ -8,9 +8,9 @@ html {
                 Ubuntu, Roboto, Oxygen, Cantarell, 'Fira Sans', 'Droid Sans',
                 'Helvetica Neue', Helvetica, Arial, Verdana, 'Lucida Grande', 
                 sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.8;
 }
 
 body {
@@ -88,7 +88,7 @@ mark {
   border-radius: 3px;
 }
 
-/*code,
+code,
 tt,
 kbd,
 samp {
@@ -96,8 +96,8 @@ samp {
   font-weight: 400;
   font-size: 85%;
 }
-*/
-/*pre {
+
+pre {
   display: block;
   line-height: 1.45;
   text-align: left;
@@ -113,16 +113,16 @@ samp {
   tab-size: 4;
 
   overflow: auto;
-}*/
+}
 
-/*code,
+code,
 kbd,
 tt,
 samp {
   color: #c41a16;
-}*/
+}
 
-/*pre code,
+pre code,
 pre kbd,
 pre tt,
 pre samp {
@@ -130,7 +130,7 @@ pre samp {
   font-size: inherit;
   color: inherit;
   background-color: rgba(0, 0, 0, 0);
-}*/
+}
 
 table {
   border-spacing: 0;
@@ -151,9 +151,9 @@ a {
   text-decoration-skip: objects;
 }
 
-/*a:hover {
+a:hover {
   text-decoration: underline;
-}*/
+}
 
 del {
   opacity: 0.5;
@@ -200,15 +200,15 @@ acronym {
   overflow: hidden;
 }
 
-/*.site.header {
+.site.header {
   padding-top: 20px;
   padding-bottom: 20px;
   min-height: 64px;
   margin-bottom: 30px;
   border-bottom: 1px solid #e6e6e6;
-}*/
+}
 
-/*.header.wrap {
+.header.wrap {
   text-align: justify;
   font-size: 1px;
 }
@@ -234,9 +234,9 @@ acronym {
   display: inline-block;
   font-size: 17px;
   text-align: initial;
-}*/
+}
 
-/*.site.home:hover {
+.site.home:hover {
   opacity: 0.5;
   text-decoration: none;
 }
@@ -273,9 +273,9 @@ acronym {
   padding: 4px 6px;
   margin: 5px 5px 5px 0;
   border-radius: 20px;
-}*/
+}
 
-/*.footer {
+.footer {
   font-size: 12px;
   color: #4a5560;
   margin-top: 30px;
@@ -285,7 +285,7 @@ acronym {
 .footer-wrap {
   display: block;
   text-align: center;
-}*/
+}
 
 .date {
   font-size: 13px;
@@ -315,8 +315,8 @@ acronym {
 
 .note.list .item>a:hover,
 .nav.item:hover {
+  opacity: .5;
   text-decoration: none;
-  background-color: #fcfcff;
 }
 
 .tag:hover,
@@ -484,7 +484,7 @@ acronym {
 
 .note.content,
 .article.markdown-body {
-  color: rgba(0,0,0,.7);
+  color: rgba(0,0,0,.6);
 }
 
 .note.list .item,
